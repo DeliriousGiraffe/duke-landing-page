@@ -1,5 +1,6 @@
 body {
     font-family: 'Arial';
+    margin: 0;
 }
 /***** HEADER *****/
 
@@ -8,6 +9,8 @@ body {
     background: #1F2937;
     justify-content: space-evenly;
     align-items: center;
+    padding: 20px;
+    
 }
 
 .header-text {
@@ -27,6 +30,22 @@ body {
 
 /***** SECTION ONE *****/
 
+.section-one {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+.section-one-left {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    gap: 20px;
+}
+
 .hero-text {
     font-size: 48px;
     color: #F9FAF8;
@@ -39,13 +58,7 @@ body {
     background: #1F2937;
 }
 
-.section-one {
-    background-color: #1F2937;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.sign-up {
+.one-signup {
     color: white;
     background-color: #3882F6;
     border-radius: 10px;
@@ -56,3 +69,126 @@ body {
 
 /***** SECTION TWO *****/
 
+/* .section-two {
+
+} */
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.block-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.block {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 210px;
+    padding: 20px 0px 50px;
+}
+
+.block-text {
+    font-size: 18px;
+    color: #525355;
+    text-align: center;
+}
+
+.block-image {
+    border: 5px solid rgb(8, 124, 233);
+    border-radius: 10px;
+}
+
+/***** SECTION THREE *****/
+
+.section-three {
+    background-color: #E5E7EB;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.quote-text {
+    font-size: 32px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.quote-source {
+    font-size: 18px;
+    color: #111822;
+    font-weight: 800px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/***** SECTION FOUR *****/
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    padding: 75px;
+}
+
+.section-four-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 25px 20px;
+    border-radius: 8px;
+    width: 800px;
+    height: 100px;
+}
+
+.section-four-textbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.four-title {
+    color: white;
+    font-size: 20px;
+    font-weight: 800px;
+}
+
+.four-text {
+    color: white;
+    font-size: 16px;
+}
+
+.four-signup {
+    color: white;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-color: white;
+    font-weight: 300px;
+    font-size: 18px;
+    padding: 5px 20px;
+}
+
+/***** FOOTER *****/
+
+.footer {
+    background: #1F2937;
+}
+
+.footer-text {
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
